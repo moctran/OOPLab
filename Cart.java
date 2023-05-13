@@ -119,6 +119,7 @@ public class Cart {
             + itemsOrdered[i].getCategory() + " - " + itemsOrdered[i].getDirector() + " - "
             + itemsOrdered[i].getLength() + ": " + itemsOrdered[i].getCost() + "$");
         }
+        System.out.println("***************************************************");
         this.totalCost = totalCost();
         System.out.println(this.totalCost);
     }
